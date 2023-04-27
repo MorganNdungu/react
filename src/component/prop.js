@@ -1,7 +1,8 @@
 const Sample=(prop)=>{
+    const {name}=prop;
     return(
         <div>
-        <h2>sample component from {prop.name}</h2>
+        <h2>sample component from {name}</h2>
         </div>
     );
 }
