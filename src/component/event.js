@@ -12,16 +12,18 @@
 import { Component } from "react";
 class Message extends Component{
    
-        Message=()=>hey
+        Message=()=>{
+            alert("hey");
     
 }
 render(){
     return(
         <div>
-            <h1>message: {this.state.message}</h1>
+            <h1>message: </h1>
                 <button onClick={()=>this.message()}>mess</button>
         </div>
     );
+}
 }
 
 export default Message;
