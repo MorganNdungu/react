@@ -2,7 +2,8 @@
 // import Sample from './component/prop';
 // import Counter from './component/counter';
 // import FunctionalCounter from './component/state';
-import Message from './component/event';
+// import Message from './component/event';
+import ConditionRendering from './component/state';
 import './App.css';
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
       {/* <Message/>
       <Sample name="morgan"/> */}
       {/* <Counter/> */}
-      <Message/>
+      {/* <Message/> */}
       {/* <FunctionalCounter/> */}
+      <ConditionRendering/>
     </div>
   );
 }
