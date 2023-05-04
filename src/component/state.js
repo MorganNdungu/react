@@ -30,25 +30,34 @@
 
 import {useState} from 'react';
 const ConditionRendering =()=>{
-    const[display, setDisplay]= useState(false);
+    const[display, setDisplay]= useState(true);
     // let output;
-    if (display){
-        return(
-            <div>
-                <h1>
-                    display is TRUE
-                </h1>
-            </div>
-        );
-    }else{
-        return(
-        <div>
-            <h1>
-                display is falsee{setDisplay}
-            </h1>
-        </div>
-        )
-    }
+//     if (display){
+//         return(
+//             <div>
+//                 <h1>
+//                     display is TRUE
+//                 </h1>
+//             </div>
+//         );
+//     }else{
+//         return(
+//         <div>
+//             <h1>
+//                 display is falsee
+//             </h1>
+//         </div>
+//         )
+//     }
+// }
+
+// ternary condition
+return display?
+(<div>
+    <h1>TRUE</h1>
+</div>):(<div>
+    <h1> FALSE</h1>
+</div>);
 }
 
 export default ConditionRendering;
