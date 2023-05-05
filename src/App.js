@@ -3,7 +3,8 @@
 // import Counter from './component/counter';
 // import FunctionalCounter from './component/state';
 // import Message from './component/event';
-import ConditionRendering from './component/state';
+// import ConditionRendering from './component/state';
+import Maps from './component/student';
 import './App.css';
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <Counter/> */}
       {/* <Message/> */}
       {/* <FunctionalCounter/> */}
-      <ConditionRendering/>
+      {/* <ConditionRendering/> */}
+      <Maps/>
     </div>
   );
 }

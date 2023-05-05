@@ -31,7 +31,7 @@
 import {useState} from 'react';
 const ConditionRendering =()=>{
     const[display, setDisplay]= useState(true);
-    // let output;
+    let output;
 //     if (display){
 //         return(
 //             <div>
@@ -52,12 +52,23 @@ const ConditionRendering =()=>{
 // }
 
 // ternary condition
-return display?
-(<div>
-    <h1>TRUE</h1>
-</div>):(<div>
-    <h1> FALSE</h1>
-</div>);
+
+// return display?
+// (<div>
+//     <h1>TRUE</h1>
+// </div>):(<div>
+//     <h1> FALSE</h1>
+// </div>);
+// }
+
+// condition rendering using element
+
+if (display){
+    output= <h1>TRUUUUE</h1>;
+}else{
+    output =<h1>FALSEEEEE</h1>;
+}
+return output;
 }
 
 export default ConditionRendering;
