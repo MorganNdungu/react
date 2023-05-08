@@ -4,9 +4,11 @@
 // import FunctionalCounter from './component/state';
 // import Message from './component/event';
 // import ConditionRendering from './component/state';
-import Map from './component/map';
-import Maps from './component/student';
+// import Map from './component/map';
+// import Maps from './component/student';
+import Form from './component/form';
 import './App.css';
+// import { Component } from 'react';
 
 function App() {
   return (
@@ -18,8 +20,9 @@ function App() {
       {/* <Message/> */}
       {/* <FunctionalCounter/> */}
       {/* <ConditionRendering/> */}
-      <Maps/>
-      <Map/>
+      {/* <Maps/> */}
+      {/* <Map/> */}
+      <Form/>
     </div>
   );
 }
